@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.rest-assured:scala-support:3.0.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/scala-support/3.0.7/94af3e4135f4e6a768293438b134f455fb2dcb4f/scala-support-3.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/scala-support/3.0.7/cb6eb50549766f4945dcd270f893020a7416e458/scala-support-3.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

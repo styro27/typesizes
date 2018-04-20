@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/typesizes.iml" filepath="$PROJECT_DIR$/.idea/modules/typesizes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/typesizes_main.iml" filepath="$PROJECT_DIR$/.idea/modules/typesizes_main.iml" group="typesizes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/typesizes_test.iml" filepath="$PROJECT_DIR$/.idea/modules/typesizes_test.iml" group="typesizes" />
+    </modules>
+  </component>
+</project>
