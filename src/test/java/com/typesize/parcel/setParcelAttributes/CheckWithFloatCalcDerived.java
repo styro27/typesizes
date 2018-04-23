@@ -12,15 +12,27 @@ public class CheckWithFloatCalcDerived extends BaseProperty {
 
     @Test
 
-    public void setFloatCalcDerived() {
+    public void setFloatCalcDerivedString() {
 
         given()
-                .request().body("{\"length\": 12,\"width\": \"\",\"height\": \"\",\"sortType\": \"\",\"calcDerived\": \"0.14\"}")
+                .request().body("{\"length\": 6,\"width\": 12,\"height\": 25,\"sortType\": 1,\"calcDerived\": \"0.11\"}")
                 .with().contentType(ContentType.JSON).then().expect()
-                .body("length", equalTo(12.0f))
+                .body("type", is("general"))
+                .body("code", equalTo(100))
                 .when().post("/set-parcel-attributes");
 
-        // ошибка для строки и числа
+    }
+
+    @Test
+
+    public void setFloatCalcDerivedNumber() {
+
+        given()
+                .request().body("{\"length\": 6,\"width\": 12,\"height\": 25,\"sortType\": 1,\"calcDerived\": 1.12}")
+                .with().contentType(ContentType.JSON).then().expect()
+                .body("type", is("general"))
+                .body("code", equalTo(100))
+                .when().post("/set-parcel-attributes");
 
     }
 }
